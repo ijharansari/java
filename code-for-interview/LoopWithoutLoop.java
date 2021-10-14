@@ -5,8 +5,13 @@ public class LoopWithoutLoop {
             printNumbers(lowerBound, upperBound);
         }
     }
+
+    public void printNumbers(int upperBound) {
+        printNumbers(1,upperBound);
+    }
+    
     public static void main(String[] args) {
         LoopWithoutLoop loop = new LoopWithoutLoop();
-        loop.printNumbers(1,100);
+        loop.printNumbers(50);
     }
 }
