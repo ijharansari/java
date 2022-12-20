@@ -27,7 +27,7 @@ public class SetQ1 {
     public static void main(String[] args) {
         SetQ1 val = new SetQ1();
         Set<Integer> naturalNumber = val.getNumbers();
-        System.out.println(naturalNumber);
+        naturalNumber.forEach(System.out::println);
     }
     
 }
