@@ -7,6 +7,9 @@ public class NumberUtils {
     }
 
     public static void main(String args[]) {
+        int num1=371;
+        int num2 = 7;
+
         System.out.println(NumberUtils.isDivisibleBy(num1, num2));
     }
 }
